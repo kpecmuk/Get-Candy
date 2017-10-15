@@ -27,6 +27,10 @@ public class Main {
             if (boxC.getCandy()) {
                 girl.getOneCandy();
             } else break;
+
+            if (boxB.getCandy()) {
+                girl.getOneCandy();
+            } else break;
         }
 
         System.out.println("Girl's candies = " + girl.getResult());
