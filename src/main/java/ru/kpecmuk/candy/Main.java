@@ -33,10 +33,10 @@ public class Main {
             } else break;
         }
 
-        System.out.println("Girl's candies = " + girl.getResult());
+        System.out.println("Girl's candies = " + girl);
 
-        System.out.println("Box A = " + boxA.getResult());
-        System.out.println("Box B = " + boxB.getResult());
-        System.out.println("Box C = " + boxC.getResult());
+        System.out.println("Box A = " + boxA);
+        System.out.println("Box B = " + boxB);
+        System.out.println("Box C = " + boxC);
     }
 }

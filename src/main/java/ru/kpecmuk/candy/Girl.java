@@ -11,7 +11,8 @@ class Girl {
         this.candies++;
     }
 
-    int getResult() {
-        return this.candies;
+    @Override
+    public String toString() {
+        return "" + this.candies;
     }
 }

@@ -20,7 +20,8 @@ class Box {
         }
     }
 
-    int getResult() {
-        return this.items;
+    @Override
+    public String toString() {
+        return "" + this.items;
     }
 }
