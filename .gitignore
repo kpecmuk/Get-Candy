@@ -1,0 +1,8 @@
+target
+test
+resources
+
+*.iml
+*.jar
+*.war
+*.ear
