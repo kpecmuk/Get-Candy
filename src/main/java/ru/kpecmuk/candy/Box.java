@@ -11,7 +11,7 @@ class Box {
         this.items = items;
     }
 
-    boolean getCandy() {
+    boolean canGetCandy() {
         if (this.items == 0) {
             return false;
         } else {

@@ -7,7 +7,7 @@ package ru.kpecmuk.candy;
 class Girl {
     private int candies = 0;
 
-    void getOneCandy() {
+    void gotOneCandy() {
         this.candies++;
     }
 

@@ -16,20 +16,20 @@ public class Main {
         Girl girl = new Girl();
 
         while (true) {
-            if (boxA.getCandy()) {
-                girl.getOneCandy();
+            if (boxA.canGetCandy()) {
+                girl.gotOneCandy();
             } else break;
 
-            if (boxB.getCandy()) {
-                girl.getOneCandy();
+            if (boxB.canGetCandy()) {
+                girl.gotOneCandy();
             } else break;
 
-            if (boxC.getCandy()) {
-                girl.getOneCandy();
+            if (boxC.canGetCandy()) {
+                girl.gotOneCandy();
             } else break;
 
-            if (boxB.getCandy()) {
-                girl.getOneCandy();
+            if (boxB.canGetCandy()) {
+                girl.gotOneCandy();
             } else break;
         }
 
