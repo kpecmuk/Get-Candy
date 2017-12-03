@@ -1,9 +1,7 @@
 .idea/
-target
-test
-resources
+target/
+test/
 
 *.iml
-*.jar
 *.war
 *.ear
